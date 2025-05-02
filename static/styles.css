@@ -1,0 +1,292 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  html, body {
+    min-height: 100%;
+    background: linear-gradient(to right, #354147, #354147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  /* Container for the Form */
+  .container {
+    position: relative;
+    width: 600px; 
+    min-height: 1500px;
+    background: #0B1D26;
+    box-shadow: 0px 0px 20px #0B1D26;
+  }
+
+  .header-container {
+    position: relative;
+    width: 100%; 
+    height: auto;
+    overflow: hidden;
+  }
+
+  .header-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block; /* removes any extra spacing below the image */
+  }
+
+  .header-text-group {
+    position: absolute;
+    top: 50%; 
+    left: 15%;
+    transform: translate(0%, -50%);
+    text-align: left; 
+  }
+
+  .header-text {
+    font-family: 'Playfair Display', Garamond, serif;
+    font-weight: 600;
+    color: white; 
+    font-size: 35px; 
+    margin-top: 10px;
+  }
+
+  .small-header {
+    color: #FBD784;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .sub-text {
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .table {
+    position: absolute;
+    top: 50%; 
+    right: 7.5%;
+    transform: translate(0%, -50%);
+    text-align: right;
+  }
+
+  .vertical-line {
+    border-left: 1px solid white; 
+    height: 125px;
+    position: absolute;
+    top: 50%;
+    right: 6%; 
+    transform: translate(0%, -50%);
+  }
+
+  .body {
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .sec01-header-photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block; /* removes any extra spacing below the image */
+    mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
+  }
+
+  .number-01 {
+    position: absolute;
+    top: 200px; 
+    left: 10%;
+    font-size: 75px; 
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    color: white; 
+    opacity: 0.15;
+  }
+
+  .sec01-text-group {
+    position: absolute;
+    top: 270px; 
+    left: 18%;
+    text-align: left; 
+  }
+
+  .sec01-photo {
+    position: absolute;
+    top: 200px;
+    right: 10%;
+    width: 155px;
+  }
+
+  .number-02 {
+    position: absolute;
+    top: 420px;
+    right: 42%;
+    font-size: 75px; 
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    color: white; 
+    opacity: 0.15;
+  }
+
+  .sec02-text-group {
+    position: absolute;
+    top: 491.5px; 
+    right: 14.5%;
+    text-align: left; 
+  }
+
+  .sec02-photo {
+    position: absolute;
+    top: 420px;
+    left: 10%;
+    width: 155px;
+  }
+
+  .number-03 {
+    position: absolute;
+    top: 630px; 
+    left: 10%;
+    font-size: 75px; 
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 700;
+    color: white; 
+    opacity: 0.15;
+  }
+
+  .sec03-text-group {
+    position: absolute;
+    top: 702px; 
+    left: 18%;
+    text-align: left; 
+  }
+
+  .sec03-photo {
+    position: absolute;
+    top: 640px;
+    right: 10%;
+    width: 155px;
+  }
+
+  .body-header-text {
+    font-family: 'Playfair Display', Garamond, serif;
+    font-weight: 600;
+    color: white; 
+    font-size: 20px; 
+    margin-top: 3px; 
+    margin-bottom: 5px
+  }
+
+  .body-small-header {
+    color: #FBD784;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    letter-spacing: 2px;
+  }
+
+  .body-sub-text {
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+  }
+  
+  /* Form Heading */
+  .form-box h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* File Input */
+  .file-input {
+    position: absolute; 
+    top: 1210px;
+    left: 35%;
+  }
+
+  .custom-file-upload {
+    position: absolute; 
+    top: 1150px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 310px;
+    height: 75px;
+    padding: 10px; 
+    margin: 20px auto;
+    border-radius: 0px;
+    background-color: #CEAE7D;
+    cursor: pointer; 
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px; 
+    font-weight: 400; 
+    color: white; 
+    text-align: center;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: 1250px;
+    width: 100px;
+    padding: 7px;
+    background-color: #CEAE7D;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    margin: 20px auto; 
+    margin-bottom: 75px;
+  }
+  
+  .submit-btn:hover {
+    background-color: rgb(185, 158, 97);
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .ack-section {
+    position: absolute; 
+    top: 1375px; 
+    left: 17%;
+    text-align: right; 
+  }
+
+  .acknowledgements {
+    font-family: 'Playfair Display', Garamond, serif;
+    font-weight: 600;
+    color: white; 
+    font-size: 15px; 
+    margin-top: 3px; 
+    margin-bottom: 5px
+  }
+
+  .acknowledgements-text {
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    margin-bottom: 4px; 
+  }
+
+  .logo {
+    position: absolute; 
+    top: 1376px; 
+    right: 17%;
+    width: 75px; 
+    height: auto; 
+  }

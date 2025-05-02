@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='tortoise-logo.png') }}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Movement Among Burrows</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <form method="post" enctype="multipart/form-data" name="form1" class="form-box">
+
+<!-- Start Section -->
+      <div class="header-container">
+
+        <!-- Header Photo -->
+        <img src="{{ url_for('static', filename='images/mountain.jpg') }}" class="header-photo">
+        
+        <!-- Text on Header Photo -->
+        <div class="header-text-group">
+          <p class="small-header">⸻    A BOYD DEEP CANYON GUIDE</p>
+          <h1 class="header-text">Movement Among<br>Burrows</h1>
+          <p class="sub-text">scroll down 🡣</p>
+        </div>
+
+        <!-- Contents (right side) -->
+        <div class="table">
+          <p class="sub-text">Start</p>
+          <br>
+          <p class="sub-text">01</p>
+          <br>
+          <p class="sub-text">02</p>
+          <br>
+          <p class="sub-text">03</p>
+        </div>
+        <div class="vertical-line"></div>
+      </div>
+<!--End Start-->
+
+<!-- Body -->
+      <div class="body">
+
+        <!-- Body Header Photo -->
+        <img src="{{ url_for('static', filename='images/sec01.jpg') }}" class="sec01-header-photo">
+
+        <!-- Section 01 -->
+        <p class="number-01">01</p>
+
+        <div class="sec01-text-group">
+          <p class="body-small-header">⸻    GET STARTED</p>
+          <p class="body-header-text">Upload your<br>desert footage</p>
+          <p class="body-sub-text">Start by uploading your footage - burrows, trails, and open desert<br>scenes all welcome</p>
+        </div>
+
+        <img src="{{ url_for('static', filename='images/tortoise.jpg') }}" class="sec01-photo">
+        <!---->
+
+        <!-- Section 02 -->
+        <p class="number-02">02</p>
+
+        <div class="sec02-text-group">
+          <p class="body-small-header">⸻    DESERT DISCOVERIES</p>
+          <p class="body-header-text">Let our model<br>detect wildlife</p>
+          <p class="body-sub-text">Our machine learning model will scan each frame to identify<br>animals hidden in plain sight</p>
+        </div>
+
+        <img src="{{ url_for('static', filename='images/mouse.jpg') }}" class="sec02-photo">
+        <!---->
+
+        <!-- Section 03 -->
+        <p class="number-03">03</p>
+
+        <div class="sec03-text-group">
+          <p class="body-small-header">⸻    WILDLIFE DETECTION</p>
+          <p class="body-header-text">Try our model<br>now!</p>
+          <p class="body-sub-text">Get predictions: species abbreviation and confidence score -<br>automatically downloads!</p>
+          <br>
+          <p class="body-small-header">try now 🡢</p>
+        </div>
+
+        <img src="{{ url_for('static', filename='images/lizard.jpg') }}" class="sec03-photo">
+        <!---->
+
+      </div>
+<!--End Body-->
+
+      <!-- Upload Files -->
+      <label for="inputfile" class="custom-file-upload">upload photos and videos below</label>
+      <input type="file" name="file[]" multiple id="inputfile" class="file-input">
+
+      <!-- Detect Button -->
+      <button type="submit" class="submit-btn">Detect</button>
+
+      <!-- Acknowledgements -->
+      <div class="ack-section">
+        <h3 class="acknowledgements">Acknowledgements</h3>
+        <p class="acknowledgements-text">We would like to thank CSUF ECS, Dr. William Hoese, and Dr. Bruce McKenzie.<br>This work was performed (in part) at the University of California Natural Reserve System<br>(Boyd Deep Canyon Desert Research Center). Reserve DOI: (doi:10.21973/N3V66D).</p>
+        <p class=body-small-header>Created by Chelsea Ogbedeagu & Amanda Shohdy</p>
+      </div>
+
+      <img src="{{ url_for('static', filename='images/ecs-poster-logo.png') }}" class="logo">
+
+    </form>
+  </div>
+</body>
+</html>
