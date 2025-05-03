@@ -52,7 +52,7 @@ def predict():
 # 1 # 
                         return redirect(url_for('render_page'))
             
-                    elif file_extension in ['avi', 'mov']:
+                    elif file_extension in ['avi', 'mov', 'mp4']:
                         video_path = filepath 
                         cap = cv2.VideoCapture(video_path)
 
