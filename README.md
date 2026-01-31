@@ -8,7 +8,7 @@ To see a demonstration and results of the application, go to the final_product f
 - Run object detection/classification using a trained YOLO model
 - Save prediction outputs (e.g., annotated images/results) for analysis
 
-![Demo](https://github.com/amandashohdy/Tortoise-Project/blob/main/final_product/application.png?raw=true)
+![Demo](https://github.com/amandashohdy/Tortoise-Project/blob/main/final_product/application.png?raw=true)   
 https://github.com/amandashohdy/Tortoise-Project/raw/refs/heads/main/final_product/MAB_Results.mp4
 
 ## Tech Stack
