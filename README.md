@@ -9,7 +9,7 @@ To see a demonstration and results of the application, go to the final_product f
 - Save prediction outputs (e.g., annotated images/results) for analysis
 
 ![Demo](https://github.com/amandashohdy/Tortoise-Project/blob/main/final_product/application.png?raw=true)
-![Watch the video](https://github.com/amandashohdy/Tortoise-Project/raw/refs/heads/main/final_product/MAB_Results.mp4)
+https://github.com/amandashohdy/Tortoise-Project/raw/refs/heads/main/final_product/MAB_Results.mp4
 
 ## Tech Stack
 - Python, Flask
