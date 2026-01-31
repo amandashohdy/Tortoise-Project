@@ -7,6 +7,8 @@ This project is a lightweight web application and ML pipeline for detecting and 
 - Run object detection/classification using a trained YOLO model
 - Save prediction outputs (e.g., annotated images/results) for analysis
 
+![Demo](https://github.com/amandashohdy/Tortoise-Project/blob/main/final_product/application.png?raw=true)
+
 ## Tech Stack
 - Python, Flask
 - Ultralytics YOLO (PyTorch-based workflow)
