@@ -5,7 +5,7 @@ This project is a lightweight web application and ML pipeline for detecting and 
 To see a demonstration and results of the application, go to the final_product folder. 
 
 ## Key Features
-- Upload images through a Flask web interface
+- Bulk upload images and videos through a Flask web interface
 - Run object detection/classification using a trained YOLO model
 - Save prediction outputs (e.g., annotated images/results) for analysis
 
