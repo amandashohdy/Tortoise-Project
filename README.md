@@ -19,8 +19,8 @@ To see a demonstration and results of the application, go to the final_product f
 
 ### Initializing the Virtual Environment (commands)
 ```
-python -m venv yoloenv
-.\yoloenv\Scripts\activate
+python -m venv venv
+.\venv\Scripts\activate
 pip install Flask
 pip install opencv-python flask pillow torch tensorflow ultralytics requests
 flask run
